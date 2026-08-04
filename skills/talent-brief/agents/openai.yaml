@@ -1,0 +1,4 @@
+interface:
+  display_name: "Talent Brief"
+  short_description: "Turn notes and resumes into concise talent briefs"
+  default_prompt: "用 $talent-brief 综合这段飞书交流记录和候选人简历，写一版可发给 founder/HRD 群的推荐语。"
