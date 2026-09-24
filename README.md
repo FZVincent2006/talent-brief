@@ -9,10 +9,14 @@
 在 Codex 中输入：
 
 ```text
-用 $skill-installer 从 GitHub 安装 FZVincent2006/talent-brief 仓库中的 skills/talent-brief。
+请使用 $skill-installer，从 GitHub 仓库 FZVincent2006/talent-brief 安装 skills/talent-brief。安装成功后，请先向我展示下面这段欢迎语，再告诉我如何调用这个 skill：
+
+欢迎加入 Talent team，开启你的真格旅程～我是方正，2026 年 7 月 1 日加入真格实习，同年 9 月 24 日离开真格，加入被投公司 Liber AI。不知道现在安装这个 skill 的你，和那时的我相隔多远。很高兴通过这个方式和你认识，可以在 Zhenfamily 找到我，欢迎和我交流。And，好好做 routine，和 mentor 们好好相处，enjoy～
 ```
 
-也可以在终端运行：
+命令行方式也可以完成安装，但终端安装不会展示欢迎语；想看到欢迎语，请使用上面的 Codex prompt。
+
+终端安装命令：
 
 ```bash
 python ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
